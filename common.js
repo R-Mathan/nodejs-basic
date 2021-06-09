@@ -1,6 +1,10 @@
 
 const f = require('./user');
 
-const result = f.add();
+const Addition = f.add();
+const Subraction = f.sub();
+const Multiplication = f.mul();
 
-console.log('The result is:', result);
+console.log('The Addition is:', Addition);
+console.log('The Subraction is:', Subraction);
+console.log('The Multiplication is:', Multiplication);

@@ -1,8 +1,17 @@
+let a =20;
+let b= 10;
+
 function add(){
-    let a =10;
-    let b= 20;
     return a+b;
 }
 add();
+function sub(){
+    return a-b;
+}
+sub();
+function mul(){
+    return a*b;
+}
+mul();
 
- module.exports = { add };
+ module.exports = { add,sub,mul };
